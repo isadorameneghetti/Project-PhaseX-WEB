@@ -19,9 +19,9 @@ body {
     background: #adadad;
 }
 
-main {
+/* main {
     margin-top: 80px;
-}
+} */
 
 #forms {
     display: flex;
@@ -78,4 +78,14 @@ main {
     align-items: center; 
     text-align: center;
     padding: 20px;
+}
+
+#contact {
+    background: var(--background-abissopelagica);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
