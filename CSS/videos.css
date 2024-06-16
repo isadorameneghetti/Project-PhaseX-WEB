@@ -1,0 +1,27 @@
+.videos h1, .videos h2 {
+    margin-bottom: 20px;
+}
+
+.latest-videos, .other-videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video, .video-small {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video iframe, .video-small iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-small {
+    width: 280px;
+}

@@ -11,6 +11,7 @@
     --text-color-h1: #2e2e2e;
     --text-color-h3: #535353;
     --second-background: #141414;
+    --third-background: #491717;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 }
 
 main {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 #forms {
@@ -29,6 +30,31 @@ main {
     min-height: 50vh;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+#last {
+    background: var(--second-background);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#videos {
+    background: var(--third-background);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 #slider {
@@ -40,6 +66,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    text-align: center;
 }
 
 #winners {
@@ -49,4 +76,6 @@ main {
     min-height: 50vh;
     justify-content: center;
     align-items: center; 
+    text-align: center;
+    padding: 20px;
 }
