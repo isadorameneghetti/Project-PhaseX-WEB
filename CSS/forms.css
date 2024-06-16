@@ -1,0 +1,46 @@
+#forms h1 {
+    color: var(--text-color-h1);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#forms h3 {
+    color: var(--text-color-h3);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#forms input[type="text"] {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#forms .inicial {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--principal-color);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#forms .inicial:hover {
+    background-color: #ffffff;
+    color: var(--principal-color);
+}

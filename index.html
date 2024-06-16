@@ -7,6 +7,8 @@
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/forms.css">
+    <link rel="stylesheet" href="CSS/slider.css">
 
     <!-- Icon Link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -25,10 +27,35 @@
     </header>
     <div class="nav-bg"></div>
 
+    <section class="forms" id="forms">
+        <h1>Formulário</h1>
+        <h3>Caso queira descobrir novidades sobre a Fórmula E, insira seu nome e comece a corrida!</h3>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <button class="inicial">Iniciar</button>
+    </section>    
 
+    <section class="slider" id="slider">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="Images/lucas-di-grassi-mahindra-racin-1.jpg">
+                <img id="slide-2" src="Images/2024-tokyo-race-start.webp">
+                <img id="slide-3" src="Images/formula-e-teams-grid.webp">
+                <img id="slide-4" src="Images/2023-04-22_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2023_1DX_1080_by_Stepro.jpg">
+                <img id="slide-5" src="Images/sergio-sette-camara-nio-333-fe.jpg">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1" data-slide="0"></a>
+                <a href="#slide-2" data-slide="1"></a>
+                <a href="#slide-3" data-slide="2"></a>
+                <a href="#slide-4" data-slide="3"></a>
+                <a href="#slide-5" data-slide="4"></a>
+            </div>
+        </div>
+    </section>
 
     <!-- JavaScript Link -->
     <script src="script.js"></script>
     <script src="JS/header.js"></script>
+    <script src="JS/slider.js"></script>
 </body>
 </html>

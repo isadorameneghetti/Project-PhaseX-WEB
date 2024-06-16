@@ -6,7 +6,34 @@
     font-family: "Poppins", sans-serif;
 }
 
+:root {
+    --principal-color: #bb4040; 
+    --text-color-h1: #2e2e2e;
+    --text-color-h3: #535353;
+    --second-background: #141414;
+}
+
 body {
     min-height: 100vh;
-    background: gray;
+    background: #adadad;
+}
+
+#forms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    background: var(--second-background);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
