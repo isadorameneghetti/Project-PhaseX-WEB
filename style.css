@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     justify-content: center;
     align-items: center;
 }
@@ -71,8 +71,16 @@ body {
     align-items: center;
 }
 
+#app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 #contact {
-    background: var(--background-abissopelagica);
     display: flex;
     flex-direction: column;
     width: 100%;

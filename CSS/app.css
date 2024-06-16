@@ -1,0 +1,41 @@
+.app h1, .app h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.app h1 {
+    font-size: 54px;
+    color: var(--text-color-h1);
+}
+
+.app h3 {
+    font-size: 24px;
+    color: var(--text-color-h3);
+}
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.store-buttons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.store-buttons img {
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.additional-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.additional-images img {
+    margin: 0 30px; 
+}
