@@ -27,10 +27,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 #last {
@@ -41,8 +40,6 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 20px;
 }
 
 #videos {
@@ -53,8 +50,6 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 20px;
 }
 
 #slider {
@@ -65,19 +60,15 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    text-align: center;
 }
 
 #winners {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     justify-content: center;
-    align-items: center; 
-    text-align: center;
-    padding: 20px;
+    align-items: center;
 }
 
 #contact {
