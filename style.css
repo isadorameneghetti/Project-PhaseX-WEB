@@ -19,10 +19,6 @@ body {
     background: #adadad;
 }
 
-/* main {
-    margin-top: 80px;
-} */
-
 #forms {
     display: flex;
     flex-direction: column;
@@ -63,6 +59,15 @@ body {
 }
 
 #winners {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#times {
     display: flex;
     flex-direction: column;
     width: 100%;
